@@ -1,0 +1,42 @@
+.HeaderBox{
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+.UnderHeaderBox{
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    color: darkslategrey;
+    width: 200px;
+}
+.About{
+    color: rgb(118, 124, 225);
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+.UnderMainBox{
+    color: blue;
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+}
+.MainBoxSecond{
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+}
