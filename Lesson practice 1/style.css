@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed&display=swap');
+
+body{
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    background-color: #cacaca;
+    color:#000000;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+header,footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blocks{
+    width: 10%;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 16px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hugetext{
+    color: rgb(18, 225, 225);
+    font-size: large;
+}
